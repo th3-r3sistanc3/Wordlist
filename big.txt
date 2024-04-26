@@ -1,3 +1,12 @@
+/_nuxt/@fs
+/_nuxt/@fs/etc/passwd
+/pages/systemcall.php\?command\=cat%20/etc/passwd
+/issues/?filter=
+/jira/issues/?filter=
+/wp-json/wp/v2/users/
+/_rpc?rpc=getConsentScreenDetails
+/_rpc?rpc=
+/manager/html
 !
 !_archives
 !_images
