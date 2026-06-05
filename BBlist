@@ -8,7 +8,7 @@
 /_rpc?rpc=
 /manager/html
 
-By modifying the interviewer email address parameter within a valid rescheduling workflow, an attacker could access the available interview slots of interviewers outside the scope of the intended scheduling process. This results in unauthorized disclosure of internal scheduling information due to insufficient access control enforcement.
+It was observed that the interview rescheduling functionality does not adequately validate the interviewer email address supplied in requests. The application fails to verify whether the provided email address belongs to an interviewer assigned to the candidate's interview process. By modifying the interviewer email parameter within a valid rescheduling workflow, an attacker could retrieve the availability information of other interviewers, resulting in unauthorized disclosure of internal scheduling information due to insufficient access control enforcement.
 
 Open a valid interview rescheduling link received via email.
 Navigate to the functionality that retrieves available interview slots.
