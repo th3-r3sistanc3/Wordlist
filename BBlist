@@ -7,3 +7,11 @@
 /_rpc?rpc=getConsentScreenDetails
 /_rpc?rpc=
 /manager/html
+
+Lack of Rate Limiting is a security weakness where an application fails to restrict the number of requests a user can perform within a given period of time.
+
+Without rate limiting, an attacker may repeatedly invoke a functionality (such as login, password reset, OTP generation, email sending, API requests, or search operations) without encountering restrictions, increasing the risk of abuse, resource exhaustion, brute-force attacks, spam, and denial-of-service conditions.
+
+It was observed that the application does not implement adequate rate limiting on the email-sending functionality. An attacker can send a large number of emails in a short period of time without restriction, potentially leading to email flooding, abuse of organizational resources, reputational damage, and degradation of email deliverability.
+
+Implement rate limiting and abuse prevention mechanisms on all sensitive endpoints such as login, password reset, OTP generation, email sending, and API requests. Controls should restrict the number of requests allowed per user, IP address, and/or session within a defined time window. Additionally, introduce progressive delays, temporary account/IP blocking on repeated violations, and CAPTCHA or challenge-based verification for suspicious or automated behavior. Monitoring and alerting should also be enabled to detect abnormal traffic patterns and potential abuse attempts.
