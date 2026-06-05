@@ -8,12 +8,13 @@
 /_rpc?rpc=
 /manager/html
 
-It was observed that the interview rescheduling functionality does not adequately validate the interviewer email address supplied in requests. The application fails to verify whether the provided email address belongs to an interviewer assigned to the candidate's interview process. By modifying the interviewer email parameter within a valid rescheduling workflow, an attacker could retrieve the availability information of other interviewers, resulting in unauthorized disclosure of internal scheduling information due to insufficient access control enforcement.
+It was observed that the interview rescheduling functionality does not properly validate the availability status of selected interview slots on the server side. By modifying the request, a candidate was able to select and schedule an interview in a time slot that was not available for booking. This indicates a business logic flaw that allows users to bypass scheduling restrictions and create conflicting interview appointments.
 
 Open a valid interview rescheduling link received via email.
-Navigate to the functionality that retrieves available interview slots.
-Intercept the request using a proxy tool.
-Identify the parameter containing the interviewer's email address.
-Replace the email address with that of another interviewer.
+Navigate to the interview scheduling/rescheduling functionality.
+Retrieve the list of available interview slots.
+Intercept the request responsible for booking the selected interview slot.
+Modify the request to specify a slot that is unavailable, occupied, or not presented as selectable by the application.
 Forward the modified request to the server.
-Observe that the application returns the availability information of the unauthorized interviewer.
+Observe that the application accepts the request and successfully schedules the interview in the unavailable time slot.
+Verify that the booked slot conflicts with an existing schedule or does not belong to the list of valid available slots.
