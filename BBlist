@@ -8,13 +8,12 @@
 /_rpc?rpc=
 /manager/html
 
-It was observed that the interview rescheduling functionality does not properly validate the availability status of selected interview slots on the server side. By modifying the request, a candidate was able to select and schedule an interview in a time slot that was not available for booking. This indicates a business logic flaw that allows users to bypass scheduling restrictions and create conflicting interview appointments.
+It was observed that the application does not properly sanitize HTML content supplied within the email body. A recruiter user was able to inject arbitrary HTML markup into an email, which was subsequently rendered in emails sent to candidates. This allows modification of the email content beyond the intended formatting capabilities and may facilitate phishing, social engineering, content spoofing, or misleading communication with recipients.
 
-Open a valid interview rescheduling link received via email.
-Navigate to the interview scheduling/rescheduling functionality.
-Retrieve the list of available interview slots.
-Intercept the request responsible for booking the selected interview slot.
-Modify the request to specify a slot that is unavailable, occupied, or not presented as selectable by the application.
-Forward the modified request to the server.
-Observe that the application accepts the request and successfully schedules the interview in the unavailable time slot.
-Verify that the booked slot conflicts with an existing schedule or does not belong to the list of valid available slots.
+Log in to the application as a recruiter user.
+Navigate to the functionality used to send emails to candidates.
+In the email body field, insert an HTML payload.
+Submit the email to a candidate email address under the tester's control.
+Open the received email.
+Observe that the injected HTML is rendered within the email content.
+Verify that the application does not sanitize or neutralize the injected HTML before sending the email.
