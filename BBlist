@@ -8,12 +8,18 @@
 /_rpc?rpc=
 /manager/html
 
-It was observed that the application does not properly sanitize HTML content supplied within the email body. A recruiter user was able to inject arbitrary HTML markup into an email, which was subsequently rendered in emails sent to candidates. This allows modification of the email content beyond the intended formatting capabilities and may facilitate phishing, social engineering, content spoofing, or misleading communication with recipients.
+---H1---
+**Retest Status: Not Fixed**
 
-Log in to the application as a recruiter user.
-Navigate to the functionality used to send emails to candidates.
-In the email body field, insert an HTML payload.
-Submit the email to a candidate email address under the tester's control.
-Open the received email.
-Observe that the injected HTML is rendered within the email content.
-Verify that the application does not sanitize or neutralize the injected HTML before sending the email.
+During retesting, it was observed that although credit card information is no longer displayed, a crew member user without the required permissions can still access the Payment Methods page through forceful browsing/direct URL access and view billing-related information.
+
+The root cause of the issue is missing server-side authorization controls. The remediation implemented only removes specific data from the page but does not prevent unauthorized users from accessing the functionality.
+
+To fully remediate this issue, server-side access controls should be enforced to ensure users without the necessary permissions cannot access the Payment Methods page or its associated information.
+-----
+
+-----H4-----
+During retesting, the issue was verified and no invalid digital certificate was observed in the Production (PROD) environment at the time of assessment. The behavior appears to be limited to the UAT environment as per current validation.
+
+Based on the available evidence during retest, the issue is not impacting the production environment. However, it is recommended to ensure certificate configurations remain consistent across environments to avoid potential misconfiguration risks during deployment.
+
