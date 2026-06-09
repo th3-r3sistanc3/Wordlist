@@ -8,5 +8,4 @@
 /_rpc?rpc=
 /manager/html
 
-Implement server-side validation and controls for URLs included in candidate communications. Where business requirements permit, restrict links to a predefined allowlist of approved domains.
-
+The application allows an invited user's event participation status to be modified to "Accepted" by tampering with a request parameter, without requiring the invited user to explicitly accept the invitation via the intended email workflow. As a result, an attacker can bypass the invitation acceptance process and add users to events without their consent
