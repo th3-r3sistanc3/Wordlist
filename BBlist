@@ -8,4 +8,10 @@
 /_rpc?rpc=
 /manager/html
 
-The application allows an invited user's event participation status to be modified to "Accepted" by tampering with a request parameter, without requiring the invited user to explicitly accept the invitation via the intended email workflow. As a result, an attacker can bypass the invitation acceptance process and add users to events without their consent
+Thank you for the clarification.
+
+We understand that Apigee enforces authentication and authorization controls at the API gateway level.
+
+However, the observation remains that the cookie is scoped to the parent domain (`abcbank.com`), resulting in it being transmitted to all subdomains under the same domain boundary. During validation, we confirmed this behavior by capturing the server response setting the cookie and subsequently observing its presence in HTTP requests made to multiple subdomains of `abcbank.com` during testing. This confirms that once the cookie is set, the browser includes it in requests across all applicable subdomains under the defined domain scope.
+
+This configuration expands the cookie’s exposure across the entire domain space and increases the risk surface associated with any subdomain handling requests under `abcbank.com`. As per the KB document provided by ABC, we have classified this as a Medium severity issue.
