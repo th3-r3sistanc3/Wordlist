@@ -8,11 +8,5 @@
 /_rpc?rpc=
 /manager/html
 
-Hi,
-
-For SOW 316112, the application team has requested that we remove the affected registration URL from the finding in the report. Their rationale is that the production application uses ABC SSO for authentication and does not utilize the registration functionality. They have also indicated that they can provide an attestation to support this.
-
-Could you please advise on how we should proceed with this request?
-
-Thanks.
+/WgSJkp2yE4zyh00PyNhCX2sW6ok6ByLNipyyH/Ty4PAbKvh4G7qnYG7HGHvPf5P23zJEMHIEmj7w48pirg
 
