@@ -8,5 +8,10 @@
 /_rpc?rpc=
 /manager/html
 
-HezqqCsml0a23uoUyICwvyG/cvF0mafqWXmEQVDkGzguXND8rIVwBYd9qYHij6oAGhngvH3YR01/9I91n56ilQ
+During the retest, we observed that MFA is now functioning correctly. However, upon further review of the MFA implementation, we identified that it remains vulnerable to OTP brute-force attacks, which could allow an attacker to bypass the MFA protection. Therefore, the issue remains open.
+
+Additionally, we have added finding 316112:H3 to address the weak MFA implementation identified during the retest.
+
+We also observed that OTPs were not received on the registered email address for the URLs listed below. Could you please register an account using **[securitytesting2@abc.com](mailto:securitytesting2@abc.com)** so that we can verify whether the same issue persists on these URLs as well?
+
 
