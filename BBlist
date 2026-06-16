@@ -8,10 +8,20 @@
 /_rpc?rpc=
 /manager/html
 
-During the retest, we observed that MFA is now functioning correctly. However, upon further review of the MFA implementation, we identified that it remains vulnerable to OTP brute-force attacks, which could allow an attacker to bypass the MFA protection. Therefore, the issue remains open.
+Hi,
 
-Additionally, we have added finding 316112:H3 to address the weak MFA implementation identified during the retest.
+For **316195:H1**, we would appreciate confirmation on the following points:
 
-We also observed that OTPs were not received on the registered email address for the URLs listed below. Could you please register an account using **[securitytesting2@abc.com](mailto:securitytesting2@abc.com)** so that we can verify whether the same issue persists on these URLs as well?
+1. Please confirm whether all credit card information, including card numbers and expiration dates for both current and previously added payment methods, has been removed from the Production environment.
 
+2. During our assessment, we observed that crew members are able not only to view whether a payment was made via credit card or direct bill, but also access:
 
+   * Billing details
+   * Images of uploaded payment methods (which may contain credit card information)
+   * System information, including the owner name and the user who last modified the record
+
+   Could you please confirm whether access to this information is required for the crew member role from a business perspective?
+
+3. We were unable to locate or access the Payment Methods functionality from the frontend while using a crew member account, as the corresponding menu option was not visible. Could you please provide the navigation path or steps required to access this functionality from the frontend?
+
+Thank you.
