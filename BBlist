@@ -10,18 +10,9 @@
 
 Hi,
 
-For **316195:H1**, we would appreciate confirmation on the following points:
+I have a quick question regarding a finding from an application I'm currently testing.
 
-1. Please confirm whether all credit card information, including card numbers and expiration dates for both current and previously added payment methods, has been removed from the Production environment.
+As a recruiter, I can send emails to candidates. The application provides a URL field intended for webinar, Zoom, or other meeting links. However, I am able to enter any arbitrary URL, including potentially malicious links, and the application includes that URL in the email sent to the candidate without any validation or domain whitelisting.
 
-2. During our assessment, we observed that crew members are able not only to view whether a payment was made via credit card or direct bill, but also access:
+Would this be worth reporting as a security issue, or would it be considered intended functionality since recruiters are expected to provide meeting links?
 
-   * Billing details
-   * Images of uploaded payment methods (which may contain credit card information)
-   * System information, including the owner name and the user who last modified the record
-
-   Could you please confirm whether access to this information is required for the crew member role from a business perspective?
-
-3. We were unable to locate or access the Payment Methods functionality from the frontend while using a crew member account, as the corresponding menu option was not visible. Could you please provide the navigation path or steps required to access this functionality from the frontend?
-
-Thank you.
