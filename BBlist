@@ -10,9 +10,12 @@
 
 Hi,
 
-I have a quick question regarding a finding from an application I'm currently testing.
+I was unable to join the call. I have shared the details regarding the H1 issue over email. We need confirmation on the points outlined in that email before proceeding further.
 
-As a recruiter, I can send emails to candidates. The application provides a URL field intended for webinar, Zoom, or other meeting links. However, I am able to enter any arbitrary URL, including potentially malicious links, and the application includes that URL in the email sent to the candidate without any validation or domain whitelisting.
+Once we receive the confirmation, we can engage the ABC Internal VA team, who will review the information and advise on the appropriate next course of action.
 
-Would this be worth reporting as a security issue, or would it be considered intended functionality since recruiters are expected to provide meeting links?
+Please let me know if you need any additional details or clarification.
+
+Thanks,
+
 
