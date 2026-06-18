@@ -8,15 +8,3 @@
 /_rpc?rpc=
 /manager/html
 
-The email functionality is available only after authentication. This is a talent acquisition application where two roles were in scope for testing:
-
-* Recruiter (standard role)
-* System Support (higher-privileged role)
-
-During testing, it was observed that a Recruiter user can send emails with a spoofed sender identity. As a result, a low-privileged user can impersonate other ABC employees and send emails that appear to originate from trusted individuals within the organization.
-
-We are only able to control the local-part (sender name) of the email address within the ABC domain. The application always sends emails using the `abc.xyz.com` domain and does not allow spoofing of arbitrary external domains. The emails are  delivered from a legitimate ABC-owned domain. 
-
-It is not technically possible to modify the link associated with the "Confirm Agenda" button. However, it is possible to inject arbitrary HTML content into the email template, which is subsequently rendered in the email received by the recipient.
-
-By combining sender impersonation with HTML injection, an attacker could craft highly convincing phishing emails that appear to originate from trusted ABC personnel. Such emails could be used to direct recipients to attacker-controlled websites, request sensitive information, or impersonate legitimate business communications. Given that the emails originate from a trusted ABC domain and target candidates who may not be familiar with internal ABC contacts, the likelihood of successful social engineering is significantly increased, potentially resulting in credential theft, disclosure of sensitive information, or reputational damage to the organization.
