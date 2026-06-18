@@ -8,9 +8,6 @@
 /_rpc?rpc=
 /manager/html
 
-An attacker could impersonate a high-ranking ABC employee by manipulating the sender name and sending a forged email to a victim. The email could be crafted to appear legitimate and contain a link to a malicious website controlled by the attacker.
-
-As a result, the victim may trust the email and be persuaded to enter credentials for their Gmail account or another third-party service on the attacker's phishing page, potentially leading to credential theft and account compromise.
-
+According to CVSS, this issue is rated as High severity. Since Availability is not impacted, we cannot classify it as Critical based on CVSS alone. However, I wanted to check whether the potential phishing and impersonation risks would justify a higher severity from a business impact perspective.
 
 
