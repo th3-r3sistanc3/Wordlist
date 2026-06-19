@@ -8,3 +8,6 @@
 /_rpc?rpc=
 /manager/html
 
+As discussed during yesterday's call, could you please provide confirmation regarding the Brazil UI, Discounts UI, and Colombia UI as well?
+
+As mentioned earlier, we are now able to access the Forgot Password and Registration interfaces for these applications. However, based on the information provided, the production environment is configured to use SSO authentication, and these interfaces are not expected to be accessible.
