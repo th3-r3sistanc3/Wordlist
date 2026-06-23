@@ -8,4 +8,4 @@
 /_rpc?rpc=
 /manager/html
 
-The server does not provide the complete SSL/TLS certificate chain during the TLS handshake, as the required intermediate certificate is missing. This may cause certificate validation failures for certain clients, applications, or devices that cannot automatically retrieve the missing intermediate certificate
+The server does not provide the complete SSL/TLS certificate chain during the TLS handshake, as the required intermediate certificate is missing. This may cause certificate validation failures for certain clients, applications, or devices that cannot automatically retrieve the missing intermediate certificate.
