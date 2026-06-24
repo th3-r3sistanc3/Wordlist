@@ -10,12 +10,12 @@
 
 Hi,
 
-Could you please assist us with a PCV override for 111?
+We have submitted a request for PCV override approval for 316195. Once the approval is received, we will update the finding status and mark H4 as closed.
 
-The application team has provided the following justification:
+For 316195 and 316195, the findings have already been marked as closed in the report, and the report is currently in the QA phase. Once the PCV override for H4 is approved, we will upload the updated report to Archer, and the closure status will be reflected accordingly.
 
-<justification>
+Regarding 316195, we are currently awaiting your confirmation on the points outlined in our previous communication. Once we receive your response, we will proceed with the next steps accordingly.
 
-In addition, we have independently validated the certificates for the production URLs and confirmed that valid certificates are currently in use. Based on the evidence provided by the application team and our verification results, the reported issue does not appear to be applicable to the production environment.
+Please let us know if you have any questions or require any additional information.
 
-Given the above, we would appreciate your review and approval for a PCV override for this finding. Please let us know if any additional information, evidence, or validation is required from our side.
+Thank you.
