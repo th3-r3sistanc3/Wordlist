@@ -8,6 +8,4 @@
 /_rpc?rpc=
 /manager/html
 
-fbacace0-5bd3-46a7-b0f5-f00004b277da&code=D476FDjM%2F70%2B1%2F%2B92PbfojpTRu52WAWF4Rjp0qXyO8Q9Ji6GF2uOxKCznRZ%2BGj79HP2cPoR16jckk%2FGgcPIwtnzLASuwqRvW%2FEog3ijGrg6O5kYZIrVAjERdewSa7gUPT7GIawhnfof%2FUfzY8wpYILvRcQr4mWtGaw8cflsPGMHqyQiJIm0gLzAf0YVlwOdMY73rqndhAxAuxx6LxtuFCg%3D%3D
-
-2e0bcf3c-a31b-4a4f-931e-b7000350b615&code=C4flM0CueS7Ypj5tlD9i4uNa5mBRDxJHOnY1ufl1Qlrg%2FIVZcl5HbS9%2F44qUK6VlF6bl90rmYVEAiJCrtfb%2F5EEWlbwEqQiNB%2FokE2EZOC4aRfhppYRafnPzug664GnOUk4EExF6%2B8o%2FTgAysAZUsLferk8OdJgRqpAL6iuT00wo9Wr%2FZ6Qem%2F8lpe3xNH8yHSTVdSliWVcjl6RSDac9aA%3D%3D
+As per the justification provided by the application team, the script-src directive is restricted to ABCVelocity domains and an approved vendor domain. Based on a review of the provided information and subsequent confirmation from the ABC Internal VA team, the risk associated with this issue has been reassessed and downgraded to Low severity.
