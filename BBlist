@@ -8,4 +8,14 @@
 /_rpc?rpc=
 /manager/html
 
-As per the justification provided by the application team, the script-src directive is restricted to ABCVelocity domains and an approved vendor domain. Based on a review of the provided information and subsequent confirmation from the ABC Internal VA team, the risk associated with this issue has been reassessed and downgraded to Low severity.
+Hi,
+
+Could you please assist us with a PCV override for 111?
+
+The application team has provided the following justification:
+
+<justification>
+
+In addition, we have independently validated the certificates for the production URLs and confirmed that valid certificates are currently in use. Based on the evidence provided by the application team and our verification results, the reported issue does not appear to be applicable to the production environment.
+
+Given the above, we would appreciate your review and approval for a PCV override for this finding. Please let us know if any additional information, evidence, or validation is required from our side.
